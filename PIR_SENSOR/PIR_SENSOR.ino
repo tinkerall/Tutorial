@@ -1,7 +1,7 @@
 /* Autor: Elena Chong
    Fecha: 15 de noviembre de 2016
-   Titulo: Ejemplo básico de cómo utilizar el "Sensor PIR" SKU: SM0002
-   Descripcion: Este programa te permitira prender una LED al persibir movimiento.
+   Título: Ejemplo básico de cómo utilizar el "Sensor PIR" SKU: SM0041
+   Descripción: Este programa te permitira prender una LED al persibir movimiento.
 
    Conexión del PIR al Arduino Uno:
     OUT: pin 2
@@ -18,7 +18,7 @@
 int pir = 2;  // pin 2 va a la señal del sensor de movimiento
 int led = 13;
 int pir_lectura;
-int pir_estado = LOW; // iniciar estado del pir como no detección
+int pir_estado = LOW; // iniciar estado del pir como no detección (señal baja)
 
 void setup() {
   // Configuración

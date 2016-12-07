@@ -2,12 +2,14 @@
    Fecha: Septiembre 10, 2016
    Titulo: Ejemplo básico de cómo utilizar el "Joystick de 2-Ejes con Botón" SKU: SM0001
    Descripcion: Este programa te permitira leer los valores de las los pines analogas del VRx y VRy y el pin digital del buton.
-
+   VELOCIDAD Y BRILLO Y RESET
+   
    Conexión del componente al Arduino Uno:
    GND --- GND
    +5V --- 5V
    VRx --- A0
    VRy --- A1
+   SW  --- 2
 
    TINKERALL.COM
 */
