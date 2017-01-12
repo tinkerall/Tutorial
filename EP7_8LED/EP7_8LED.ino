@@ -1,3 +1,9 @@
+/* Autor: Elena Chong
+   Fecha: 1/11/2017
+   Titulo: Codigo del Episodio 7 de la serie de tutoriales para Arduino Basico de Tinkerall.
+   Descripcion: Controlar 8 led con potenciometro.
+   TINKERALL.COM
+*/
 int led2Pin = 2;      // definir pin de LED
 int led3Pin = 3;      // definir pin de LED
 int led4Pin = 4;      // definir pin de LED
@@ -128,10 +134,7 @@ void brillo() {
     digitalWrite(led7Pin, LOW);  
     digitalWrite(led8Pin, LOW);  
     digitalWrite(led9Pin, LOW);  
-
   }
-
-
 }
 
 
