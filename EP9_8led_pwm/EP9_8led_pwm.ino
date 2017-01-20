@@ -9,7 +9,7 @@ int ledPin = 0;     // variable para almacenar pin presente
 int ledPinAnterior = 0; // variable para almacenar pin anterior
 int brillo = 0;     // variable para incrementar el brillo del led
 int valorPot = 0;  // variable del valor del potenciometro
-int interval = 5;    // variable con intervalo para cambiar intensidad del brillo del led
+int intervalo = 5;    // variable con intervalo para cambiar intensidad del brillo del led
 
 void setup() {
   // declarar pines 2 a 9 de los LEDs como salidas usando for loop
@@ -38,9 +38,9 @@ void loop() {
   }
   analogWrite(ledPin, brillo); // mandando señal analoga al led presente 
   
-  brillo = brillo + interval; // la variable brillo se actualiza en cada ciclo para que incremente en intervalo de 5.
-  if(brillo == 0 || brillo == 255){
-    interval = -interval;
+  brillo = brillo + intervalo; // la variable brillo se actualiza en cada ciclo para que incremente en intervalo de 5.
+  if(brillo == 0 || brillo == 255){ // si brillo igual a 0 ó 255, entonces
+    intervalo = -intervalo;
   }
   delay(3);
 
