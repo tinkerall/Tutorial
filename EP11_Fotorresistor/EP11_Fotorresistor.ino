@@ -19,7 +19,7 @@ void setup() {
 
 void loop() {
   valorSensor = analogRead(FOTOPIN);
-  valorMapeado = map(valorSensor, 770, 240, 0, 255);
+  valorMapeado = map(valorSensor, 900, 640, 0, 255);
   analogWrite(LED, valorMapeado);
 
   Serial.print("Valor del Sensor: ");
